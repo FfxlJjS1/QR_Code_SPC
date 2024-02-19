@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>QR-Code</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	<body>
+		<div class="head">
+			<img src="img/Logotip.png" alt="Логотип сайта">
+
+			<div class="shortcurts">
+				<nav class="main-nav">
+					<ul>
+						<li><a href="#" class="signin">Войти</a></li>
+						<li><a href="#" class="signup button-color">Регистрация</a></li>
+					</ul>
+				</nav>
+
+				<span class="menu">
+					<ul>
+						<li><a href="myInfo.html">Личный кабинет</a></li>
+						<li><a href="uploadWork.html">Загрузка работ</a></li>
+					</ul>
+				</span>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="aboutQRStorage">
+				<div>
+					<h2>Что такое QR Storage</h2>
+					Это сервис хранения курсовых <br>
+					и дипломных работ, а так же <br>
+					проверка на антиплагиат.
+					<br><br>
+					<a href="uploadWork" class="button-color">Попробовать прямо сейчас</a>
+				</div>
+
+				<img src="img/Home_picture.png">
+			</div>
+
+			<div class="advices">
+				<ul>
+					<li>
+						<img src="img/OK.png">
+						<h4>QR Code</h4>
+						какой загруженной работе присвайвается уникальный двухмерный штрих-код QR.
+						Отсканируй его и посмотри на работу.
+					</li>
+					<li>
+						<img src="img/OK.png">
+						<h4>Долговременное хранение</h4>
+						Курсовые и дипломные работы будут храниться длительное время, с возможностью в любой момент их посмотреть.
+					</li>
+					<li>
+						<img src="img/OK.png">
+						<h4>Антиплагиат</h4>
+						Каждую работу можно проверить на наличие плагиата.
+					</li>
+					<li>
+						<img src="img/OK.png">
+						<h4>Безопасность</h4>
+						Каждый преподаватель должен пройти верификацию прежде чем ему откроются базы данных с курсовыми и дипломными работами.
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="cd-user-modal">
+			<div class="cd-user-modal-container">
+				<ul class="cd-switcher">
+					<li><a id="cd-sw-signin" href="#">Авторизация</a></li>
+					<li><a id="cd-sw-signup" href="#">Регистрация</a></li>
+				</ul>
+
+				<div id="cd-login">
+					<form class="cd-form">
+							<input class="full-width" type="login" placeholder="Введите логин">
+							<input class="full-width" type="password" placeholder="Введите пароль">
+						<input type="submit" class="button-color" value="Войти">
+					</form>					
+				</div>
+
+				<div id="cd-signup">
+					<form class="cd-form">
+						<input class="full-width" placeholder="Введите имя">
+						<input class="full-width" placeholder="Введите фамилию">
+						<input class="full-width" placeholder="Введите отчество">
+						<input class="full-width" type="login" placeholder="Введите логин">
+						<input class="full-width" type="password" placeholder="Введите пароль">
+						<input class="full-width" type="password" placeholder="Повторный пароль">
+						
+						<input type="submit" class="button-color" value="Зарегестрироваться">
+						<br><br>
+						Я подтверждаю, что ознакомился с <a href="#">условиями <br> предоставления услуг</a>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jQuery.min.js"></script>
+		<script src="js/modalForm.js"></script> <!-- jQuery -->
+
+		<div class="footer">
+			<div class="copyright">
+				<a href="index.html"><img src="img/Logotip.png" alt="Логотип сайта"></a><br><br>
+				© 2020 QR Storage<br>
+				Все права защищены
+			</div>
+			
+			<div class="social">
+				Мы в соц сетях:<br>
+				<a href="vk.com"><img src="img/vk_icon.png" alt="VK"></a>
+				<a href="twitter.com"><img src="img/twitter_icon.png" alt="Twitter"></a>
+				<a href="instagram.com"><img src="img/instagram_icon.png" alt="Instagram"></a>
+			</div>
+			
+			<span class="about">
+				<ul type="disc">
+					<li><a href="index.html">· О проекте</a></li>
+					<li><a href="#">· Политика конфиденциальности</a></li>
+					<li><a href="#">· Помощь</a></li>
+					<li><a href="#">· Партнерская программа</a></li>
+				</ul>
+			</span>
+		</div>
+	</body>
+</html>
